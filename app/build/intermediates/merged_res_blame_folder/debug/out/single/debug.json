@@ -1,0 +1,182 @@
+[
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.lam.lam_project.app-main-48:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/drawable_wifi.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/drawable/wifi.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/layout_activity_maps.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/layout/activity_maps.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/drawable_signal.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/drawable/signal.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.lam.lam_project.app-main-48:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/menu_main_menu.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/menu/main_menu.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/drawable_baseline_cloud_upload_24.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/drawable/baseline_cloud_upload_24.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/drawable_golbal_refresh.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/drawable/golbal_refresh.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.lam.lam_project.app-main-48:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/drawable_map_1000.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/drawable/map_1000.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.lam.lam_project.app-main-48:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/drawable_map_10.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/drawable/map_10.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/layout_activity_settings.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.lam.lam_project.app-main-48:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/drawable_phone.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/drawable/phone.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.lam.lam_project.app-main-48:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.lam.lam_project.app-main-48:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/drawable_map_100.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/drawable/map_100.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.lam.lam_project.app-main-48:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/xml_myprefs.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/xml/myprefs.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.lam.lam_project.app-main-48:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.lam.lam_project.app-main-48:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/layout_content_layout.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/layout/content_layout.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/drawable_acoustic_noise.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/drawable/acoustic_noise.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.lam.lam_project.app-main-48:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/drawable_world.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/drawable/world.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/xml_filepath.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/xml/filepath.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/drawable_add_sample.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/drawable/add_sample.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.lam.lam_project.app-main-48:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/xml_backup_rules.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/drawable_download.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/drawable/download.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/drawable_settings.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/drawable/settings.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/layout_header_menu.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/layout/header_menu.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/drawable_delete_db.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/drawable/delete_db.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/drawable_map.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/drawable/map.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/xml_data_extraction_rules.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/drawable_data.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/drawable/data.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.lam.lam_project.app-main-48:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.lam.lam_project.app-main-48:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.lam.lam_project.app-main-48:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.lam.lam_project.app-merged_res-46:/layout_activity_menu.xml.flat",
+        "source": "com.lam.lam_project.app-main-48:/layout/activity_menu.xml"
+    }
+]

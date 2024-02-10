@@ -1,0 +1,119 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".activities.MapActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"></androidx.fragment.app.FragmentContainerView>
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        style="@style/Widget.MaterialComponents.MaterialButtonToggleGroup"
+        android:id="@+id/toggleSampleChooser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="32dp"
+        android:layout_marginStart="5dp">
+
+        <Button
+            android:id="@+id/btn_noise"
+            style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cornerRadius="0dp"
+            app:icon="@drawable/acoustic_noise"
+            app:iconTint="@color/blue_500"
+            app:strokeColor="@color/blue_500" />
+
+        <Button
+            android:id="@+id/btn_signal"
+            style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/signal"
+            app:iconTint="@color/blue_500"
+            app:strokeColor="@color/blue_500" />
+
+        <Button
+            android:id="@+id/btn_wifi"
+            style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cornerRadius="0dp"
+            app:icon="@drawable/wifi"
+            app:iconTint="@color/blue_500"
+            app:strokeColor="@color/blue_500" />
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_sample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:src="@drawable/add_sample"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="TODO" />
+
+        <com.google.android.material.button.MaterialButtonToggleGroup
+            android:id="@+id/toggleMapChooser"
+            style="@style/Widget.MaterialComponents.MaterialButtonToggleGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="164dp"
+            android:layout_marginBottom="32dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent">
+
+            <Button
+                android:id="@+id/btn_10m"
+                style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cornerRadius="0dp"
+                app:icon="@drawable/map_10"
+                app:iconTint="@color/blue_500"
+                app:strokeColor="@color/blue_500" />
+
+            <Button
+                android:id="@+id/btn_100m"
+                style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:icon="@drawable/map_100"
+                app:iconTint="@color/blue_500"
+                app:strokeColor="@color/blue_500" />
+
+            <Button
+                android:id="@+id/btn_1000m"
+                style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cornerRadius="0dp"
+                app:icon="@drawable/map_1000"
+                app:iconTint="@color/blue_500"
+                app:strokeColor="@color/blue_500" />
+        </com.google.android.material.button.MaterialButtonToggleGroup>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

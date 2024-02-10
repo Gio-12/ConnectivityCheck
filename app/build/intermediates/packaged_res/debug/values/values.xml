@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="background_sampling_accuracy_entries">
+        <item>100 meters</item>
+        <item>1 kilometers</item>
+    </string-array>
+    <string-array name="background_sampling_accuracy_values">
+        <item>3</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="map_granularities_entries">
+        <item>10 meters</item>
+        <item>100 meters</item>
+        <item>1 kilometer</item>
+    </string-array>
+    <string-array name="map_granularities_values">
+        <item>10</item>
+        <item>100</item>
+        <item>1000</item>
+    </string-array>
+    <string-array name="map_samplers_entries">
+        <item>Noise recorder</item>
+        <item>Wifi recorder</item>
+        <item>Signal recorder</item>
+    </string-array>
+    <string-array name="map_samplers_values">
+        <item>noise</item>
+        <item>wifi</item>
+        <item>signal</item>
+    </string-array>
+    <string-array name="sample_from">
+        <item>Local</item>
+        <item>All</item>
+    </string-array>
+    <string-array name="sample_types">
+        <item>Noise</item>
+        <item>Signal</item>
+        <item>Wifi</item>
+    </string-array>
+    <string-array name="sample_types_all">
+        <item>All</item>
+        <item>Noise</item>
+        <item>Signal</item>
+        <item>Wifi</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="blue_500">#0F40A6</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="fab_margin">16dp</dimen>
+    <string name="Microphone">Microphone</string>
+    <string name="app_name">LAM_Project</string>
+    <string name="background_accuracy_key">background_accuracy</string>
+    <string name="chart_activity_title">Samples trend</string>
+    <string name="default_web_client_id" translatable="false"/>
+    <string name="delete_sample">Delete record</string>
+    <string name="drawer_close">Close</string>
+    <string name="drawer_open">Open</string>
+    <string name="exportData">Export data</string>
+    <string name="file_name">File name</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="gcm_defaultSenderId" translatable="false">1004256204898</string>
+    <string name="google_api_key" translatable="false">AIzaSyANPtKILkEqdWrS1EipqR9VDjK4j6mybZM</string>
+    <string name="google_app_id" translatable="false">1:879127279776:android:f6ab6a42c2b60edb7231c5</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyANPtKILkEqdWrS1EipqR9VDjK4j6mybZM</string>
+    <string name="google_storage_bucket" translatable="false"/>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="label_signal">Signal</string>
+    <string name="last_synch">last_synch</string>
+    <string name="next">Next</string>
+    <string name="notification_channel_id_background_service">Lam_service</string>
+    <string name="previous">Previous</string>
+    <string name="project_id" translatable="false">project-lam-413421</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="selectSampleType">Select record type</string>
+    <string name="select_sample_from">Local or all</string>
+    <string name="settings_back_and_not_header">Background &amp; notifications</string>
+    <string name="settings_background_key">background</string>
+    <string name="settings_background_title">Background sampling</string>
+    <string name="settings_granularity_key">granularity</string>
+    <string name="settings_map_header">Map default settings</string>
+    <string name="settings_notification_key">notifications</string>
+    <string name="settings_notification_title">Notifications</string>
+    <string name="settings_samplers_key">recorder</string>
+    <string name="title_activity_map_testactivity">MapTestactivity</string>
+    <string name="title_activity_sample_view">SampleViewActivity</string>
+    <string name="title_activity_tile_info">TileInfoActivity</string>
+    <style name="Theme.LAM_Project" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">#1F42FF</item>
+        <item name="colorPrimaryVariant">#005BFD</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <style name="Theme.LAM_Project.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.LAM_Project.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.LAM_Project.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="Widget.App.Button.OutlinedButton.IconOnly" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="iconPadding">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="backgroundTint">#FFFFFF</item>
+    </style>
+    <style name="Widget.MaterialComponents.MaterialButtonToggleGroup" parent="android:Widget">
+        <item name="singleSelection">true</item>
+        <item name="selectionRequired">true</item>
+    </style>
+</resources>

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.lam.lam_project.app-mergeDebugResources-45:/layout/activity_settings.xml",
+        "source": "com.lam.lam_project.app-main-48:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-mergeDebugResources-45:/layout/activity_menu.xml",
+        "source": "com.lam.lam_project.app-main-48:/layout/activity_menu.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-mergeDebugResources-45:/layout/content_layout.xml",
+        "source": "com.lam.lam_project.app-main-48:/layout/content_layout.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-mergeDebugResources-45:/layout/header_menu.xml",
+        "source": "com.lam.lam_project.app-main-48:/layout/header_menu.xml"
+    },
+    {
+        "merged": "com.lam.lam_project.app-mergeDebugResources-45:/layout/activity_maps.xml",
+        "source": "com.lam.lam_project.app-main-48:/layout/activity_maps.xml"
+    }
+]

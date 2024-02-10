@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">LAM_Project</string>
+    <string name="Microphone">Microphone</string>
+    <string name="label_signal">Signal</string>
+    <string name="title_activity_map_testactivity">MapTestactivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="selectSampleType">Select record type</string>
+    <string name="delete_sample">Delete record</string>
+
+
+    <string name="settings_map_header">Map default settings</string>
+    <string name="settings_back_and_not_header">Background &amp; notifications</string>
+    <string name="settings_background_title">Background sampling</string>
+    <string name="settings_notification_title">Notifications</string>
+
+    <string name="settings_notification_key">notifications</string>
+    <string name="settings_background_key">background</string>
+    <string name="settings_samplers_key">recorder</string>
+    <string name="settings_granularity_key">granularity</string>
+    <string name="last_synch">last_synch</string>
+
+
+    <string name="notification_channel_id_background_service">Lam_service</string>
+    <string name="background_accuracy_key">background_accuracy</string>
+    <string name="title_activity_sample_view">SampleViewActivity</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_tile_info">TileInfoActivity</string>
+    <string name="chart_activity_title">Samples trend</string>
+
+    <string name="file_name">File name</string>
+    <string name="select_sample_from">Local or all</string>
+    <string name="exportData">Export data</string>
+
+
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="map_granularities_entries">
+        <item>10 meters</item>
+        <item>100 meters</item>
+        <item>1 kilometer</item>
+    </string-array>
+
+    <string-array name="map_granularities_values">
+        <item>10</item>
+        <item>100</item>
+        <item>1000</item>
+    </string-array>
+
+    <string-array name="map_samplers_entries">
+        <item>Noise recorder</item>
+        <item>Wifi recorder</item>
+        <item>Signal recorder</item>
+    </string-array>
+
+    <string-array name="map_samplers_values">
+        <item>noise</item>
+        <item>wifi</item>
+        <item>signal</item>
+    </string-array>
+
+    <string-array name="background_sampling_accuracy_entries">
+        <item>100 meters</item>
+        <item>1 kilometers</item>
+    </string-array>
+
+    <string-array name="background_sampling_accuracy_values">
+        <item>3</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="sample_types">
+        <item>Noise</item>
+        <item>Signal</item>
+        <item>Wifi</item>
+    </string-array>
+
+    <string-array name="sample_types_all">
+        <item>All</item>
+        <item>Noise</item>
+        <item>Signal</item>
+        <item>Wifi</item>
+    </string-array>
+
+    <string-array name="sample_from">
+        <item>Local</item>
+        <item>All</item>
+    </string-array>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="@string/settings_map_header">
+        <ListPreference
+            app:defaultValue="Noise recorder"
+            app:entries="@array/map_samplers_entries"
+            app:entryValues="@array/map_samplers_values"
+            app:key="@string/settings_samplers_key"
+            app:title="Default Recorder"
+            app:useSimpleSummaryProvider="true"/>
+        <ListPreference
+            app:defaultValue="100 meters"
+            app:entries="@array/map_granularities_entries"
+            app:entryValues="@array/map_granularities_values"
+            app:key="@string/settings_granularity_key"
+            app:title="Default granularity"
+            app:useSimpleSummaryProvider="true"/>
+        <EditTextPreference
+            app:defaultValue="90"
+            app:key="samples_past_to_average"
+            app:title="Record x tile"
+            app:useSimpleSummaryProvider="true"/>
+        <EditTextPreference
+            app:defaultValue="500"
+            app:key="noise_sampling_time"
+            app:title="Noise sampling time (in milliseconds)"
+            app:useSimpleSummaryProvider="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/settings_back_and_not_header">
+        <SwitchPreferenceCompat
+            app:key="@string/settings_background_key"
+            app:title="@string/settings_background_title"/>
+        <ListPreference
+            app:defaultValue="3"
+            app:entries="@array/background_sampling_accuracy_entries"
+            app:entryValues="@array/background_sampling_accuracy_values"
+            app:key="@string/background_accuracy_key"
+            app:title="Background recording accuracy"
+            app:useSimpleSummaryProvider="true"/>
+        <SwitchPreferenceCompat
+            app:key="@string/settings_notification_key"
+            app:title="@string/settings_notification_title"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

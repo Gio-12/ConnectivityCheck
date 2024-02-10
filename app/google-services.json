@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1004256204898",
+    "project_id": "project-lam-413421",
+    "storage_bucket": ""
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879127279776:android:f6ab6a42c2b60edb7231c5",
+        "android_client_info": {
+          "package_name": "com.lam.lam_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANPtKILkEqdWrS1EipqR9VDjK4j6mybZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
